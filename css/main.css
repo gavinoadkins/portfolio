@@ -1,1 +1,41 @@
-b
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('fonts/quicksand-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+
+	background-image: url("../img/bridge.jpg");
+	background-size: cover;
+	padding: 200px 0;
+}
+
+header .title-wrap {
+	background-color: #f0f757;
+	padding: 20px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #f0f757;
+	font-family: 'quicksandregular' , sans-serif;
+	margin-bottom: 2%;
+	
+}
+p{
+	font-family: 'quicksandregular' , sans-serif;
+	font-size: 23px;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+.about-wrap {
+	padding: 50px 0;
+}
